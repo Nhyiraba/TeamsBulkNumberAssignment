@@ -34,7 +34,7 @@ This will perform assignment for one user
 For bulk action specifing the source csv file directly
 
 ```
-.\PhoneNumberAssignment.ps1 -PhoneNumberType DirectRouting -BulkAssignmentCsvData C:\Users\PNDT\Documents\GitHub\TeamsBulkNumberAssignment\NumebrAssignment.csv
+.\PhoneNumberAssignment.ps1 -PhoneNumberType DirectRouting -BulkAssignmentCsvData ".\NumebrAssignment.csv"
 ```
 #### EXAMPLE
 For bulk action using the BulkAssignment switch, this will proceed to request the BulkAssignmentCsvData path
